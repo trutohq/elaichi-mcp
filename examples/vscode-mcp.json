@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "elaichi": {
+      "type": "http",
+      "url": "https://api.elaichi.ai/mcp"
+    }
+  }
+}
