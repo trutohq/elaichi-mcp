@@ -1,6 +1,8 @@
-# Elaichi MCP: one governed MCP endpoint for Claude, ChatGPT, Cursor and Microsoft Copilot
+# Elaichi: give your AI every app, not every permission
 
-[Elaichi](https://elaichi.ai) is a governed MCP control plane. It is a hosted MCP gateway: one MCP endpoint that Claude, ChatGPT, Cursor, Microsoft Copilot and any MCP client sign in to. Admins connect company apps once, then decide with roles and restrictions who can reach which tools, and read an audit log of every connected-tool call.
+One MCP endpoint for Claude, ChatGPT, Cursor and Microsoft Copilot. Each person's AI can do only what they're allowed to, and every action it takes is logged.
+
+[Elaichi](https://elaichi.ai) connects AI apps to the apps your company uses, such as Salesforce, Slack and Gmail. Under the hood it is a governed MCP control plane and hosted MCP gateway: Claude, ChatGPT, Cursor, Microsoft Copilot and any MCP client sign in to one org-wide MCP endpoint over OAuth. Admins connect company apps once, decide with roles and restrictions who can reach which tools, and read an audit log of every connected-tool call.
 
 This repo holds the setup steps and config files for each client. The product itself runs at [elaichi.ai](https://elaichi.ai).
 
